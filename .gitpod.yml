@@ -1,0 +1,7 @@
+tasks:
+  - init: npm install && npm run build
+    command: npm run start:dev
+
+vscode:
+  extensions:
+    - humao.rest-client
