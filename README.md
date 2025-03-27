@@ -38,4 +38,6 @@ Para que eu possa saber quais estão disponíveis para empréstimo.*
 ## Instruções para live coding:
 
 - Crie um ambiente novo do repositório no Gitpod acessando essa URL [https://gitpod.io/#https://github.com/dbserver/nestjs-challenge](https://gitpod.io/#https://github.com/dbserver/nestjs-challenge)
-- Para banco de dados, utilize a biblioteca knex com sqlite3
+- Para utilizar a API pública durante os testes use a URL do navegador acrescentando o prefixo "3000-"
+  - Ex: https://3000-dbserver-nestjschalleng-xpto1zdyav3.ws-us118.gitpod.io/
+
