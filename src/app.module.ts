@@ -1,10 +1,11 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { DatabaseModule, DB } from './database.module';
+import { DatabaseModule, KNEX_TOKEN } from './database.module';
 import knexConfig from '../knexfile';
+
 @Module({
-  imports: [DatabaseModule.forRoot(DB, knexConfig)],
+  imports: [DatabaseModule.forRoot(KNEX_TOKEN, knexConfig)],
   controllers: [AppController],
   providers: [AppService],
 })
