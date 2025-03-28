@@ -18,4 +18,4 @@ export class DatabaseModule {
   }
 }
 
-export const DB = 'KNEX_TOKEN';
+export const KNEX_TOKEN = 'KNEX_TOKEN';

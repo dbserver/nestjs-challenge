@@ -3,15 +3,15 @@ import { Knex } from 'knex';
 const config: Knex.Config = {
   client: 'sqlite3',
   connection: {
-    filename: './db.sqlite3',
+    filename: './database/data.sqlite3',
   },
   useNullAsDefault: true,
   migrations: {
-    directory: './src/database/migrations',
+    directory: './database/migrations',
     extension: 'ts',
   },
   seeds: {
-    directory: './src/database/seeds',
+    directory: './database/seeds',
     extension: 'ts',
   },
 };
